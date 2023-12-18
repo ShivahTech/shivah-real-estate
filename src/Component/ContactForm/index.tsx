@@ -2,7 +2,7 @@ import React from "react";
 
 export const index = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="container">
         <div className="row align-items-center justify-content-end">
           <div className=" col-lg-6 col-md-6">
