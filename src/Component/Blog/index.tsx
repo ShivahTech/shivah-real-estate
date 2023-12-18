@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { map } from "lodash";
 import { blog } from "@/Utility/blog";
+import Link from "next/link";
+import { route } from "@/Enum/route";
 const index = () => {
   return (
     <section className="blog-section" id="blog">
@@ -39,6 +41,7 @@ const index = () => {
                     </p>
                     <h4> {item.heading} </h4>
                     <p>{item.detail}</p>
+
                     <button className="" type="button">
                       Continue <i className=" ms-2 fa-solid fa-arrow-right"></i>
                     </button>
