@@ -67,3 +67,51 @@
 //     background-position: -512px -512px;
 //   }
 // }
+.banner-sections {
+  position: relative;
+  overflow: hidden;
+  .ineer-section {
+    width: 100%;
+    position: relative;
+    animation: scale 20s linear infinite;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    &::before {
+      position: absolute;
+      background: #000000ab;
+      content: "";
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .banner-details {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    justify-content: center;
+    transform: translate(10px, 8%);
+
+    .banner-detail {
+      .ipsum-detail {
+        font-size: $-text-font-szie;
+      }
+    }
+  }
+}
+@keyframes scale {
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
