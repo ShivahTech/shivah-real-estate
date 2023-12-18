@@ -3,9 +3,12 @@
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 140px 0px 100px 0px;
+  padding: 180px 0px 130px 0px;
   background-blend-mode: overlay;
   // animation: scale 40s linear infinite;
+  @include sm {
+    pading: 140px 0px 120px 0px;
+  }
   .banner-detail {
     .ipsum-detail {
       font-size: $-text-font-szie;
