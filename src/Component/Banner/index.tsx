@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const index = () => {
   return (
-    <section className="banner-sections">
-      <div className="ineer-section">
+    <section className="banner-sections position-relative">
+      <div className="ineer-section position-relative w-100">
         <Image
           src="/image/slider-1.jpg"
           width={500}
