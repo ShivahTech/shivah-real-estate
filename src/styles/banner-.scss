@@ -1,0 +1,66 @@
+.banner-section {
+  background: url(/image/bg-home-demo-04.jpg) rgba(28, 27, 28, 0.493);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0px 100px 0px;
+  background-blend-mode: overlay;
+  // animation: scale 40s linear infinite;
+  .banner-detail {
+    .ipsum-detail {
+      font-size: $-text-font-szie;
+    }
+  }
+
+  .banner-form {
+    padding: 20px 54px;
+    background-color: $white-bg;
+    .fome-heading {
+      h4 {
+        color: $heading-color;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+    }
+    .form-group {
+      .custome-form {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #dbdbdb;
+        padding: 0px 20px;
+        border-radius: 4px !important;
+        margin-bottom: 20px;
+      }
+    }
+    .custome-btn {
+      margin: 0 auto;
+      text-align: center;
+
+      button {
+        background-color: $theme-color;
+        border: unset;
+        color: #fff;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
+// @keyframes scale {
+//   50% {
+//     -webkit-transform: scale(1.2);
+//     -moz-transform: scale(1.2);
+//     -ms-transform: scale(1.2);
+//     -o-transform: scale(1.2);
+//     transform: scale(1.2);
+//   }
+// }
+// @keyframes slide {
+//   from {
+//     background-position: 0 0;
+//   }
+//   to {
+//     background-position: -512px -512px;
+//   }
+// }

@@ -1,0 +1,67 @@
+.looksection {
+  background: url("/image/bg-demo-02.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  .slick-slide img {
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  .look-details-services {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right: 10px;
+    .apartment-last-section {
+      background-color: #f4f4f4 !important;
+      border-color: #f4f4f4 !important;
+      padding: 3px 10px;
+      margin-top: 10px;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $theme-color;
+        font-size: 12px;
+        .no-apar {
+          height: 28px;
+          line-height: 28px;
+          min-width: 28px;
+          border-radius: 50%;
+          background-color: #fff;
+          font-size: 15px;
+        }
+      }
+    }
+    .apa-links {
+      font-size: 12px;
+      margin-top: 3px;
+      font-weight: 600;
+      color: $link-color;
+      margin-top: 5px;
+    }
+  }
+  .slick-slide img {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+}
+.heading-deatail {
+  text-align: center;
+  h3 {
+    font-family: $heading-font;
+    text-align: center;
+    color: $heading-color;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+}

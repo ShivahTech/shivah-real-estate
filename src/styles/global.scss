@@ -1,0 +1,44 @@
+@import "./varibel.scss";
+@import "./header.scss";
+@import "./banner-.scss";
+@import "./look.scss";
+@import "./work.scss";
+@import "./export.scss";
+@import "./footer.scss";
+@import "./apartment.scss";
+@font-face {
+  font-family: "Jost", sans-serif;
+  src: url("./Jost/Jost-Medium.ttf") format(truetype);
+  src: url("./Jost/Jost-Bold.ttf") format(truetype);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./Roboto/Roboto-Light.ttf") format(truetype);
+  src: url("./Roboto/Roboto-Medium.ttf") format(truetype);
+  src: url("./Roboto/Roboto-Regular.ttf") format(truetype);
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: $deafult-font;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 !important;
+}
+.form-select:focus {
+  border-color: unset !important;
+  outline: 0;
+  box-shadow: unset !important;
+}

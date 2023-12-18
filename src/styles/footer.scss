@@ -1,0 +1,98 @@
+footer {
+  background-image: url(/image/footer-bg.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px 20px 0px;
+  margin-top: 50px;
+  .footer-logo {
+    a {
+      img {
+        height: fit-content;
+        width: fit-content;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 15px;
+      padding-top: 20px;
+      letter-spacing: 1px;
+    }
+
+    .social-link {
+      h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+        padding-left: 12px;
+
+        margin-bottom: 20px;
+        &::before {
+          position: absolute;
+          background-color: $heading-color;
+          content: "";
+          height: 22px;
+          width: 4px;
+          left: 0;
+          top: 4px;
+        }
+      }
+      ul {
+        padding: 0;
+        display: flex;
+        li {
+          margin-right: 10px;
+
+          a {
+            color: #fff;
+            border: 1px dashed $heading-color;
+            padding: 5px 13px;
+          }
+        }
+      }
+    }
+  }
+  .footer-link {
+    h3 {
+      color: #fff;
+      font-size: 1.3rem;
+      padding-bottom: 21px;
+    }
+    p {
+      color: #fff;
+      font-size: 15px;
+      padding-top: 20px;
+      letter-spacing: 1px;
+    }
+    ul {
+      padding: 0;
+      li {
+        margin-bottom: 18px;
+        a {
+          color: #fff;
+          font-size: 0.9rem;
+          i {
+            color: $theme-color;
+          }
+        }
+      }
+    }
+    .newsletter-input {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .newsletter-btn {
+        position: absolute;
+        right: 3px;
+        button {
+          border: unset;
+          padding: 5px 10px;
+          color: #fff;
+          background-color: $theme-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.how-work-section {
+  padding-top: 50px;
+  .arrow-section {
+    &:nth-last-child(3) {
+      img {
+        display: none;
+      }
+    }
+    img {
+      height: fit-content;
+    }
+  }
+  .work-section {
+    position: relative;
+    border-radius: 3px 25px 3px;
+    border: 1px solid $heading-color;
+    margin-bottom: 10px;
+    .count {
+      position: absolute;
+      right: 0;
+      background: rgb(77 189 241 / 15%);
+      border-radius: 0px 25px;
+      border: 1px solid $heading-color;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $heading-color;
+      font-weight: 600;
+      top: -1px;
+      p {
+        margin: 0;
+      }
+    }
+    .inner-section {
+      padding: 20px;
+      img {
+        margin-bottom: 10px;
+      }
+      h4 {
+        color: $heading-color;
+        font-size: 1rem;
+        margin-bottom: 6px;
+      }
+      p {
+        font-size: 0.8rem;
+        margin: 0;
+      }
+    }
+  }
+}
