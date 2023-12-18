@@ -5,7 +5,7 @@ import { map } from "lodash";
 import { place } from "@/Utility/explor";
 export const index = () => {
   return (
-    <section className="export-section">
+    <section className="export-section" id="services">
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-12">

@@ -41,8 +41,8 @@ const indes = () => {
             <a className="navbar-brand" href="#">
               <Image
                 src={"/image/logo.png"}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 alt="Logo"
               />
             </a>
@@ -69,22 +69,34 @@ const indes = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="#">
+                  <Link
+                    className="nav-link "
+                    href={"#about"}
+                    aria-current="page"
+                  >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="#">
+                  <Link
+                    className="nav-link "
+                    aria-current="page"
+                    href={"#services"}
+                  >
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="#">
+                  <a className="nav-link " aria-current="page" href={"#blog"}>
                     Blog
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="#">
+                  <a
+                    className="nav-link "
+                    aria-current="page"
+                    href={"#contact"}
+                  >
                     Conatct
                   </a>
                 </li>

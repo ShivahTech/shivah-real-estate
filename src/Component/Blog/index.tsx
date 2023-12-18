@@ -4,7 +4,7 @@ import { map } from "lodash";
 import { blog } from "@/Utility/blog";
 const index = () => {
   return (
-    <section className="blog-section">
+    <section className="blog-section" id="blog">
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-8 col-12">

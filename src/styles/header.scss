@@ -1,4 +1,7 @@
 .main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
   .top-deader {
     background-color: #0f3235;
     @include sm {
@@ -42,7 +45,6 @@
   header {
     .navbar-brand img {
       height: fit-content;
-      width: fit-content;
     }
     .navbar {
       .navbar-nav {

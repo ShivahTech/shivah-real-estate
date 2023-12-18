@@ -4,13 +4,13 @@ import Image from "next/image";
 const index = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="container pb-0 pb-md-3">
         <div className="row alihn-items-center justify-content-between">
           <div className="col-lg-3 col-sm-6">
             <div className="footer-logo">
               <Link href="/" className="">
                 <Image
-                  src="/image/footer-logo.png"
+                  src="/image/footerlogo.png"
                   width={200}
                   height={200}
                   alt="footer-logo"
@@ -47,34 +47,23 @@ const index = () => {
               <h3>Our Navigation</h3>
               <ul>
                 <li>
-                  <Link href="">
-                    <i className="fa-solid fa-angles-right"></i> Reliability
-                    &amp; Punctuality
+                  <Link href={"#about"}>
+                    <i className="fa-solid fa-angles-right"></i> About
                   </Link>
                 </li>
                 <li>
-                  <Link href="">
-                    <i className="fa-solid fa-angles-right"></i> Trusted
-                    Franchise
+                  <Link href={"#services"}>
+                    <i className="fa-solid fa-angles-right"></i> Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="">
-                    <i className="fa-solid fa-angles-right"></i> Warehoues
-                    Storage
+                  <Link href={"#blog"}>
+                    <i className="fa-solid fa-angles-right"></i>Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="">
-                    <i className="fa-solid fa-angles-right"></i> Real Time
-                    Tracking
-                  </Link>
-                </li>
-
-                <li>
-                  <Link href="">
-                    <i className="fa-solid fa-angles-right"></i> Transparent
-                    Pricing
+                  <Link href={"#contact"}>
+                    <i className="fa-solid fa-angles-right"></i> Contact
                   </Link>
                 </li>
               </ul>
