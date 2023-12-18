@@ -21,7 +21,7 @@ export const index = () => {
         </div>
         <div className="row align-items-center pt-2 pt-md-3 pt-lg-4">
           {map(place, (item, index) => (
-            <div className="col-lg-3" key={index}>
+            <div className="col-lg-3 col-md-6" key={index}>
               <div className="main-export-section">
                 <div className="silder">
                   <Image

@@ -1,38 +1,45 @@
 .apartment-section {
-  padding-top: 30px;
-  .apartment-main-section {
-    figure {
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
+  padding-top: 50px;
+  position: relative;
+  .apartment-top-section {
+    overflow: hidden;
     position: relative;
-    .inner-section {
-      position: absolute;
-      width: 100%;
-      height: 0px;
-      bottom: 0px;
-      background: red;
-      text-align: center;
-      color: #fff;
-      border-radius: 10px 10px 0px 0px;
-      opacity: 0;
-      transition: 0.5s;
-      h3 {
-        margin: 0;
-        font-size: 1rem;
+    .apartment-main-section {
+      position: relative;
+      figure {
+        img {
+          width: 100%;
+          object-fit: fill;
+          border-radius: 10px;
+        }
       }
-      p {
-        margin: 0;
-        font-size: 1.5rem;
+      position: relative;
+      .inner-section {
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        bottom: 0px;
+        background: $theme-color;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px 10px 0px 0px;
+        opacity: 0;
+        transition: 0.5s;
+        h3 {
+          margin: 0;
+          font-size: 1rem;
+        }
+        p {
+          margin: 0;
+          font-size: 1rem;
+        }
       }
-    }
-  }
-  &:hover {
-    .inner-section {
-      opacity: 9;
-      height: 81px;
+      &:hover {
+        .inner-section {
+          opacity: 9;
+          height: 50px;
+        }
+      }
     }
   }
 }

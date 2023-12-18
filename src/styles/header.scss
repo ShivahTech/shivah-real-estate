@@ -1,6 +1,9 @@
 .main-header {
   .top-deader {
     background-color: #0f3235;
+    @include sm {
+      display: none;
+    }
     .head-loaction {
       ul {
         li {

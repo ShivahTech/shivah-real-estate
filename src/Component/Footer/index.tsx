@@ -142,6 +142,15 @@ const index = () => {
           </div>
         </div>
       </div>
+      <div className="container boder-top mt-2">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-lg-12 col-12 text-center">
+            <p className="text-white mb-0 py-2 ">
+              Copyright © Shivah All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

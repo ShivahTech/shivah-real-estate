@@ -1,0 +1,71 @@
+.contact-section {
+  background: url(/image/slider-11.jpg) rgb(28 27 28 / 86%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+  background-blend-mode: overlay;
+  margin-top: 20px;
+  .form-silder {
+    h2 {
+      color: #fff;
+      font-family: $heading-font;
+    }
+    ul {
+      padding: 0px;
+      li {
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .contant-form-section {
+    background-color: #0009;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    h4 {
+      font-family: $heading-font;
+      text-align: center;
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    p {
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .form-section {
+    .form-group {
+      margin-bottom: 20px;
+      input {
+        &::placeholder {
+          font-size: 10px;
+          font-weight: 600;
+          color: #6d6d6d;
+        }
+      }
+    }
+    textarea {
+      &::placeholder {
+        padding: 0;
+        font-size: 10px;
+        font-weight: 600;
+        color: #6d6d6d;
+      }
+    }
+    .form-btn {
+      width: 100%;
+      background-color: $theme-color;
+      color: #fff;
+      border: unset;
+      border-radius: 4px;
+      padding: 3px 0px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}

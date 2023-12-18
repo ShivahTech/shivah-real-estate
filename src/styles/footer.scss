@@ -3,7 +3,7 @@ footer {
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px 0px 20px 0px;
+  padding: 60px 0px 0px 0px;
   margin-top: 50px;
   .footer-logo {
     a {
@@ -94,5 +94,8 @@ footer {
         }
       }
     }
+  }
+  .boder-top {
+    border-top: 1px dotted $theme-color;
   }
 }

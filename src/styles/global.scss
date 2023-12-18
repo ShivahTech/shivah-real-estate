@@ -1,4 +1,5 @@
 @import "./varibel.scss";
+@import "./mediaquery.scss";
 @import "./header.scss";
 @import "./banner-.scss";
 @import "./look.scss";
@@ -6,6 +7,9 @@
 @import "./export.scss";
 @import "./footer.scss";
 @import "./apartment.scss";
+@import "./contact.scss";
+@import "./blog.scss";
+
 @font-face {
   font-family: "Jost", sans-serif;
   src: url("./Jost/Jost-Medium.ttf") format(truetype);
@@ -38,6 +42,11 @@ ul {
   margin: 0 !important;
 }
 .form-select:focus {
+  border-color: unset !important;
+  outline: 0;
+  box-shadow: unset !important;
+}
+.form-control:focus {
   border-color: unset !important;
   outline: 0;
   box-shadow: unset !important;

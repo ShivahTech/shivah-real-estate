@@ -1,5 +1,7 @@
 import Apartment from "@/Component/Apartment";
 import Banner from "@/Component/Banner";
+import Blog from "@/Component/Blog";
+import ContactForm from "@/Component/ContactForm";
 import Explore from "@/Component/Explore";
 import Footer from "@/Component/Footer";
 import Header from "@/Component/Header";
@@ -13,10 +15,13 @@ const index = () => {
       <Header />
       <Banner />
       <Looksection />
-      <HowWork />
-      <Explore />
-      <Apartment />
 
+      <HowWork />
+
+      <Explore />
+      <ContactForm />
+      <Apartment />
+      <Blog />
       <Footer />
     </>
   );
