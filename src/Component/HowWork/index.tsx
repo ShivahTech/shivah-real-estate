@@ -21,8 +21,8 @@ const index = () => {
           <div className="row align-items-center pt-2 pt-md-3 pt-lg-4">
             {map(work, (items, index) => (
               <>
-                <div className="col-lg-3 col-sm-6 col-md-4" key={index}>
-                  <div className="work-section">
+                <div className="col-lg-3 col-sm-6 col-md-4 d-flex" key={index}>
+                  <div className="work-section flex-fill">
                     <div className="count">
                       <p>{items.countp}</p>{" "}
                     </div>

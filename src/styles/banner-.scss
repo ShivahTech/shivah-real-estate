@@ -69,18 +69,29 @@
 // }
 .banner-sections {
   overflow: hidden;
+  height: 100vh;
+  @include sm {
+    height: 70vh;
+  }
   .ineer-section {
     animation: scale 20s linear infinite;
     img {
       width: 100%;
       object-fit: cover;
+      height: 100vh;
+      @include sm {
+        height: 70vh;
+      }
     }
     &::before {
       position: absolute;
       background: #000000ab;
       content: "";
       width: 100%;
-      height: 100%;
+      height: 100vh;
+      @include sm {
+        height: 70vh;
+      }
     }
   }
   .banner-details {
@@ -95,10 +106,29 @@
     bottom: 0;
     justify-content: center;
     transform: translate(10px, 8%);
-
+    height: 100vh;
+    @include sm {
+      height: 70vh;
+      transform: translate(0px, 8%);
+    }
+    h1 {
+      font-size: 55px;
+      @include sm {
+        font-size: 25px;
+      }
+    }
+    p {
+      font-size: 25px;
+      @include sm {
+        font-size: 16px;
+      }
+    }
     .banner-detail {
       .ipsum-detail {
-        font-size: $-text-font-szie;
+        font-size: 25px;
+        @include sm {
+          font-size: 16px;
+        }
       }
     }
   }

@@ -18,14 +18,18 @@ const indes = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="tel:+1 (888) 538-6433">
                       <i className="fa-solid fa-phone"></i>+1 (888) 538-6433
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="mailto: info@shivahwebtech.com
+
+"
+                    >
                       <i className="fa-solid fa-envelope"></i>
-                      emaple@demo.com
+                      info@shivahwebtech.com
                     </Link>
                   </li>
                 </ul>

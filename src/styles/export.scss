@@ -31,7 +31,7 @@
         padding-bottom: 15px;
         span {
           margin: 0;
-          font-size: 12px;
+          font-size: 16px;
           color: #5f5d5d;
           font-weight: 500;
         }
@@ -40,6 +40,7 @@
           font-size: 1rem;
           a {
             color: $heading-color;
+            font-size: 16px;
           }
         }
         h6 {
@@ -55,20 +56,20 @@
           background: #d9d9d961;
           border-radius: 100px;
           padding: 4px;
-          width: 17px;
-          height: 17px;
+          width: 20px;
+          height: 20px;
           display: flex;
           align-items: center;
           justify-content: center;
           margin-right: 2px;
           i {
-            font-size: 8px;
+            font-size: 12px;
             color: #00000069;
           }
         }
         p {
           margin: 0;
-          font-size: 12px;
+          font-size: 15px;
           color: rgb(137 137 137 / 99%);
           margin-right: 5px;
         }
@@ -83,15 +84,16 @@
       padding: 9px 14px 15px 14px;
 
       .location-a {
-        font-size: 12px;
+        font-size: 16px;
         color: #8a8a8a;
       }
       .view-btn {
         background-color: $heading-color;
         border-radius: 100px;
         color: #fff;
-        padding: 3px 11px;
-        font-size: 12px;
+        padding: 4px 11px;
+        font-size: 13px;
+        display: block;
       }
     }
   }

@@ -31,18 +31,20 @@
         justify-content: space-between;
         color: $theme-color;
         font-size: 12px;
+        span {
+          font-size: 15px;
+        }
         .no-apar {
           height: 28px;
           line-height: 28px;
           min-width: 28px;
           border-radius: 50%;
           background-color: #fff;
-          font-size: 15px;
         }
       }
     }
     .apa-links {
-      font-size: 12px;
+      font-size: 14px;
       margin-top: 3px;
       font-weight: 600;
       color: $link-color;
@@ -61,7 +63,7 @@
     text-align: center;
     color: $heading-color;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 32px;
     margin-bottom: 0;
   }
 }

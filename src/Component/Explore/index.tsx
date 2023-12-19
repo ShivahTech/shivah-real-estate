@@ -7,9 +7,9 @@ export const index = () => {
   return (
     <section className="export-section" id="services">
       <div className="container">
-        <div className="row align-items-center justify-content-center">
-          <div className="col-lg-6 col-12">
-            <div className="heading-deatail">
+        <div className="row align-items-stretch justify-content-center">
+          <div className="col-lg-6 col-12 d-flex">
+            <div className="heading-deatail flex-fill">
               <h3>Explore Good Places</h3>
               <p>
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -19,10 +19,10 @@ export const index = () => {
             </div>
           </div>
         </div>
-        <div className="row align-items-center pt-2 pt-md-3 pt-lg-4">
+        <div className="row  pt-2 pt-md-3 pt-lg-4">
           {map(place, (item, index) => (
-            <div className="col-lg-3 col-md-6" key={index}>
-              <div className="main-export-section">
+            <div className="col-lg-4 col-xl-3 col-md-6 d-flex" key={index}>
+              <div className="main-export-section flex-fill">
                 <div className="silder">
                   <Image
                     src={item.src}
