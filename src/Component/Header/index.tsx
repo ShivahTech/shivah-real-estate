@@ -45,8 +45,8 @@ const indes = () => {
             <a className="navbar-brand" href="#">
               <Image
                 src={"/image/logo.png"}
-                width={150}
-                height={150}
+                width={180}
+                height={180}
                 alt="Logo"
               />
             </a>

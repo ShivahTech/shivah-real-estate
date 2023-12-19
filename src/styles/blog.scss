@@ -1,5 +1,8 @@
 .blog-section {
   padding-top: 50px;
+  @include sm {
+    padding-top: 33px;
+  }
   .main-blog-section {
     background-color: #fff;
     box-shadow: #959da533 0px 8px 24px;

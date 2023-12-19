@@ -1,6 +1,9 @@
 .apartment-section {
   padding-top: 50px;
   position: relative;
+  @include sm {
+    padding-top: 33px;
+  }
   .apartment-top-section {
     overflow: hidden;
     position: relative;
