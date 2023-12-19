@@ -19,7 +19,7 @@ export const index = () => {
             </div>
           </div>
         </div>
-        <div className="row  pt-2 pt-md-3 pt-lg-4">
+        <div className="row align-items-stretch pt-2 pt-md-3 pt-lg-4">
           {map(place, (item, index) => (
             <div className="col-lg-4 col-xl-3 col-md-6 d-flex" key={index}>
               <div className="main-export-section flex-fill">
