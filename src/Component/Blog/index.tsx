@@ -19,13 +19,13 @@ const index = () => {
               </p>
             </div>
           </div>
-          <div className="row align-items-center">
+          <div className="row align-items-stretch">
             {map(blog, (item, index) => (
               <div
-                className="col-lg-4  col-md-6 mt-2 mt-md-2 mt-lg-0"
+                className="col-lg-4  col-md-6 mt-2 mt-md-2 mt-lg-0 d-felx"
                 key={index}
               >
-                <div className="main-blog-section">
+                <div className="main-blog-section flex-fill">
                   <figure>
                     <Image
                       src={item.src}
