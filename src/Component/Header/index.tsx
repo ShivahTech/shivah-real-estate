@@ -17,11 +17,11 @@ const indes = () => {
                       Beaver Rd Suite 1400 , Troy MI 48084
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="tel:+1 (888) 538-6433">
                       <i className="fa-solid fa-phone"></i>+1 (888) 538-6433
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="mailto: info@shivahwebtech.com
