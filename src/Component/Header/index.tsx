@@ -24,12 +24,12 @@ const indes = () => {
                   </li> */}
                   <li>
                     <Link
-                      href="mailto: info@shivahwebtech.com
+                      href="mailto: info@shivahahome.com
 
 "
                     >
                       <i className="fa-solid fa-envelope"></i>
-                      info@shivahwebtech.com
+                      info@shivahahome.com
                     </Link>
                   </li>
                 </ul>
